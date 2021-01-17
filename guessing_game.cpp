@@ -25,10 +25,10 @@ void play_game()
     while (true)
     {
         int guess;
-
-        guesses[guess_count++] = guess;
-
         cin >> guess;
+        
+        guesses[guess_count++] = guess;
+        
         if(guess == random)
         {
             cout << "You win!" << endl;
